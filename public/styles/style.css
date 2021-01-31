@@ -1,0 +1,88 @@
+  body{
+    margin-bottom: 60px;
+    background-color: #eee;
+    font-family: Helvetica;
+  }  
+
+  .fa{
+    padding-right: 8px;
+  }
+  .cont {
+      max-width: 500px;
+      margin: auto;
+      padding-top: 10px;
+  }
+  .thumb {
+    object-fit: cover;
+    width:100%;
+    height:100vw;
+    max-height: 500px;
+    background:grey;
+  }
+
+  .profile-pic{
+    object-fit: cover;
+    width: 160px;
+    height:160px;
+    box-shadow: 0px 0px 1px #888888;
+  }
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        margin-top: 80;
+        margin-bottom: 30px;
+    }
+}
+
+.ekko-lightbox{
+  background: #000;
+}
+.ekko-lightbox .modal-body{
+  padding:0;
+  margin:0;
+}
+
+#contextMenu {
+  position: absolute;
+  display: none;
+}
+
+.wrap{
+  width:90%;
+  display:block;
+  margin:0 auto;
+}
